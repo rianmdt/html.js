@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container{
+    margin: 120px auto;
+    max-width: 700px;
+    width: 100%;
+}
+
+form{
+    margin-top: 60px;
+}
+
+input, button{
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+h1{
+    margin-left: 150px;
+    color: rgb(245, 226, 121);
+}
+button{
+    background-color: rgb(245, 226, 121);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px
+}
+button:hover{
+    background-color: gold;
+}
+
+body{
+    background-color: black;
+}
+
+.accept-message{
+    font-size: 15px;
+    padding: 16px;
+    background-color: rgb(245, 226, 121);
+    color: black;
+    margin-bottom: 8px;
+}
+
+.error-message{
+    font-size: 15px;
+    padding: 8px;
+    background-color: red;
+    color: black;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.error{
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
